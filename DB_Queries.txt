@@ -1,0 +1,21 @@
+CREATE DATABASE testevegatech;
+use testevegatech;
+
+CREATE TABLE Supplier (
+	IDSupplier int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	CNPJ varchar(100),
+	CEP varchar(100),
+	RegisterDate datetime);
+
+CREATE TABLE Material (
+	IDMaterial int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	IDSupplier int NOT NULL,
+	Code varchar(200),
+	Name varchar(200),
+	Description varchar(200),
+	FiscalCode varchar(200),
+	Specie varchar(200),
+	CreatedAt varchar(200),
+	UpdatedAt datetime,
+	UpdatedBy varchar(200),
+	FOREIGN KEY (IDSupplier) REFERENCES Supplier(IDSupplier));
