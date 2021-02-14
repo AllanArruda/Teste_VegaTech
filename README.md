@@ -1,4 +1,5 @@
 Esta é uma aplicação desenvolvida para realizar o teste para vaga de estágio na VegaTech
+
 Utilizei o template do próprio Visual Studio utilizando .NET Core para backend com ReactJS para frontend.
 Os Models e páginas foram criados por mim para atender os pedidos do teste, mas a estrutura e interface faz parte do Template. Controllers gerados pelo Visual Studio.
 Utilizado wampserver para hospedagem de banco de dados MySQL local. Foi incluso um arquivo com os comandos para criação do banco de dados.
